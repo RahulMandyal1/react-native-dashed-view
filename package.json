@@ -1,0 +1,69 @@
+{
+  "name": "react-native-dashed-view",
+  "version": "1.0.0",
+  "description": "A simple and customizable dashed line component for React Native",
+  "main": "src/index.ts",
+  "module": "src/index.ts",
+  "types": "dist/index.d.ts",
+  "react-native": "src/index.ts",
+  "source": "src/index.ts",
+  "exports": {
+    ".": {
+      "import": "./src/index.ts",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "lint": "biome lint ./src",
+    "format": "biome format --write ./src",
+    "check": "biome check ./src",
+    "check:fix": "biome check --write ./src",
+    "prepublishOnly": "npm run build",
+    "release": "release-it"
+  },
+  "keywords": [
+    "react-native",
+    "dash",
+    "dashed",
+    "dashed-line",
+    "dotted",
+    "dotted-line",
+    "line",
+    "separator",
+    "divider"
+  ],
+  "author": "RahulMandyal1",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RahulMandyal1/react-native-dashed-view.git"
+  },
+  "bugs": {
+    "url": "https://github.com/RahulMandyal1/react-native-dashed-view/issues"
+  },
+  "homepage": "https://github.com/RahulMandyal1/react-native-dashed-view#readme",
+  "peerDependencies": {
+    "react": ">=17.0.0",
+    "react-native": ">=0.64.0"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.0",
+    "@commitlint/cli": "^19.0.0",
+    "@commitlint/config-conventional": "^19.0.0",
+    "@release-it/conventional-changelog": "^8.0.0",
+    "@types/react": "^18.2.0",
+    "@types/react-native": "^0.72.0",
+    "husky": "^9.0.0",
+    "react": "^18.2.0",
+    "react-native": "^0.73.0",
+    "release-it": "^17.0.0",
+    "typescript": "^5.3.0"
+  }
+}
