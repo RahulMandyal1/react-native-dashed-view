@@ -1,3 +1,12 @@
+
+
+# 1.0.0 (2026-02-04)
+
+
+### Features
+
+* add Dash component for React Native ([432deae](https://github.com/RahulMandyal1/react-native-dashed-view/commit/432deaeabbd4a3d800c65c9a3578a1f6d4f0e307))
+
 # Changelog
 
 All notable changes to this project will be documented in this file.
